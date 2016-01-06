@@ -79,4 +79,3 @@ C:\PROJECTS\MVC5-01\MVC5-01\bin\Microsoft.Owin.Security.Twitter.xml
 C:\PROJECTS\MVC5-01\MVC5-01\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\PROJECTS\MVC5-01\MVC5-01\obj\Debug\MVC5-01.dll
 C:\PROJECTS\MVC5-01\MVC5-01\obj\Debug\MVC5-01.pdb
-C:\PROJECTS\MVC5-01\MVC5-01\obj\Debug\MVC5-01.csprojResolveAssemblyReference.cache
