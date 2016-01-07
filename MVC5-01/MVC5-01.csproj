@@ -211,6 +211,10 @@
     <Compile Include="Migrations\201601070805375_Rating.Designer.cs">
       <DependentUpon>201601070805375_Rating.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201601070934543_DataAnnotations.cs" />
+    <Compile Include="Migrations\201601070934543_DataAnnotations.Designer.cs">
+      <DependentUpon>201601070934543_DataAnnotations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -220,6 +224,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Movies.mdf" />
+    <Content Include="App_Data\Movies_log.ldf">
+      <DependentUpon>Movies.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -286,9 +294,7 @@
     <Content Include="Views\Movies\Edit.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -303,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201601070805375_Rating.resx">
       <DependentUpon>201601070805375_Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601070934543_DataAnnotations.resx">
+      <DependentUpon>201601070934543_DataAnnotations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

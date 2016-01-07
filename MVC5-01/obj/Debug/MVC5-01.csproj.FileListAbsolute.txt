@@ -82,3 +82,5 @@ C:\PROJECTS\MVC5-01\MVC5-01\obj\Debug\MVC5-01.pdb
 C:\PROJECTS\MVC5-01\MVC5-01\obj\Debug\MVC5_01.Migrations.Initial.resources
 C:\PROJECTS\MVC5-01\MVC5-01\obj\Debug\MVC5-01.csproj.GenerateResource.Cache
 C:\PROJECTS\MVC5-01\MVC5-01\obj\Debug\MVC5_01.Migrations.Rating.resources
+C:\PROJECTS\MVC5-01\MVC5-01\obj\Debug\MVC5-01.csprojResolveAssemblyReference.cache
+C:\PROJECTS\MVC5-01\MVC5-01\obj\Debug\MVC5_01.Migrations.DataAnnotations.resources
